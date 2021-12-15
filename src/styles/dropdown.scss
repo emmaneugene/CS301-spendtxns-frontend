@@ -1,0 +1,11 @@
+.dropdown-menu{
+  border-radius: 0 !important;
+  padding: 0 !important;
+  .dropdown-item{
+    padding: .5rem 1rem;
+    &:active{
+      background-color: #e9ecef;
+      color: #1e2125;
+    }
+  }
+}

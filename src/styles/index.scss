@@ -1,0 +1,52 @@
+// general styles
+@import "./color.scss";
+@import "./font.scss";
+
+* {
+  margin: 0;
+  outline: none !important;
+}
+
+.app-container {
+  margin: 4.5rem 9rem;
+}
+body {
+  margin: 0;
+  font-family: "Poppins" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p.danger {
+  color: red;
+  font-size: 12px;
+}
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #efefef;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba($green, 0.75);
+  border-radius: 2px;
+  &:hover {
+    background: $green;
+  }
+}
+
+@import "./authPage.scss";
+@import "./button.scss";
+@import "./dropdown.scss";
+@import "./form.scss";
+@import "./link.scss";
+@import "./modal.scss";
+@import "./navbar.scss";
+@import "./rewardsPage.scss";
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
